@@ -5,6 +5,6 @@ files:
     destination: /home/ubuntu/django/project1
 hooks:
   BeforeInstall:
-    - location: /before_install.sh
+    - location: before_install.sh
   AfterInstall:
-    - location: /after_install.sh
+    - location: after_install.sh
