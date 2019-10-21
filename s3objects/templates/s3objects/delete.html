@@ -9,6 +9,7 @@
             <div class="ownerln">Owner LN: {{ sel_file.owner.last_name }}</div>
             <div class="uploadtime">Uploaded at: {{ sel_file.uploadTime|date:'Y / m / d  H:i:s' }}</div>
             <div class="updatetime">Last updated:{{ sel_file.updateTime|date:'Y / m / d  H:i:s' }}</div>
+            <h2 class="deletion-comfirm">Are You Sure?</h2>
             <input type="submit", value="Delete" />
         </form>
         <form class="text-center" action="{% url 'home' %}">
